@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <main id="main">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title id="Khalil Taylor">Khalil Taylor</title>
+  </head>
+  <body>
+    <h1 id="title">Khalil Taylor</h1>
+    <div id="img-div">
+      <img id="image" class="center" src="https://lh3.googleusercontent.com/GC4pRrvp4HMWPg80PvDJs8a6_kikVC1iPN128ue9loM9HA4fPKA0WNK-Rut-gsh0Mmstzqx2ohQ4gfvJ2Xf_dxBiofOatOjwXUb5kpye7nfXO-sVKtEqcr_fVh-bDeG9CL34GkKQhw=w2400" />
+      <figcaption id="img-caption">Khalil Taylor, third from the left, now is an aspiring developer. This picture is of him and a few friends in 2011.</figcaption>
+    </div>
+    <div class="divide"></div>
+      <label class="bold center" id="tribute-info">Here Is A Summary of Khalil Taylor's Life</label>
+      <ul>
+        <li><span class="bold">1993</span> - On June 10, 1993 Khalil Taylor was born in Marietta, GA</li>
+        <li><span class="bold">2000</span> - Summer of this year Khalil moved from Atlanta, GA to Milwaukee, WI with his mother and siblings</li>
+        <li><span class="bold">2004</span> - In May of 2004 Khalil Graduated Elementary school</li>
+        <li><span class="bold">2007</span>- Khalil graduated from Samuel Morse Middle School</li>
+        <li><span class="bold">2011</span> - In May Khalil graduated from Rufus King High School</li>
+        <li><span class="bold">2012</span> - Khalil attends Howard University to major in computer science</li>
+        <li><span class="bold">2022</span> - Khalil returns to learn coding to acquire new developer position</li>
+      </ul>
+    <a class="center" id="tribute-link" href="https://www.instagram.com/_taylordfilms/" target="_blank">More info on Khalil here...</a>
+  </body>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+h1, p{
+  text-align: center;
+}
+.divide{
+   border-bottom: 1px solid #888989;
+  margin: 2px 0;
+  clear: right;
+}
+.bold{
+  font-weight: 800;
+}
+ul{
+  text-align: center;
+  list-style-position: center;
+}
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+figcaption{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+** end of undefined **
+

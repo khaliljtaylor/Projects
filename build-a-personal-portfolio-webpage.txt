@@ -1,0 +1,146 @@
+** start of html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <nav id="navbar">
+          <ul>
+            <li><a class="nav-text" href="#profile-link">Project 1</a></li>
+            <li><a class="nav-text" href="#project-two">Project 2</a></li>
+           <li><a class="nav-text" href="#project-three">Project 3</a></li>
+          </ul>
+        </nav>
+  </header>
+  <body>
+    <section id="welcome-section">
+      <h1>Welcome To My Portfolio</h1>
+        
+    </section>
+    <section id="projects">
+      <ul>
+        <li><a id="profile-link" target="_blank" class="project-tile" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">Survey Form Project</a></li>
+        <p>This project outputs a short survey form on the topic of Marvel Universe knowledge.</p>
+        <code></code>
+        <li><a id="project-two" class="project-tile" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page">Tribute Page Project</a></li>
+         <p>This project outputs a tribute page dedicated towards my own life and notable achievements I've had throughout the years.</p>
+        <li><a id="project-three" class="project-tile" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page">Technical Documentation Project</a></li>
+         <p>This project outputs a technical documentation displaying specific terms and coding usage.</p>
+      </ul>
+    </section>
+    
+  </body>
+</html
+
+** end of html **
+
+** start of css **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #1b1b32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#logo {
+  width: max(100px, 18vw);
+  background-color: #0a0a23;
+  aspect-ratio: 35 / 4;
+  padding: 0.4rem;
+}
+
+h1 {
+  color: #f1be32;
+  font-size: min(5vw, 2em);
+  text-align: center;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  padding-top: 50px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  max-width: 600px;
+}
+
+h1 {
+  font-family: Verdana,   Tahoma;
+}
+.project-tile{
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+.nav-text{
+  padding-left: 2px;
+  text-align: center;
+}
+section > ul{
+  list-style: none;
+  text-align: center;
+  padding: 30px;
+}
+section > ul > li:hover{
+  background-color: black;
+  color: white;
+}
+
+
+** end of css **
+

@@ -1,0 +1,110 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Marvel Knowledge Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Marvel Knowledge Form</h1>
+    <p id="description">Thank you for taking the time out to show your Marvel comic/movie knowledge.</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="name">Name: <input id="name" type="text" placeholder="First and Last Name" required></label><label id="name-label"> Enter first name above</label>
+        <label for="email">Email: <input id="email" type="email" placeholder="enter valid email" required></label><label id="email-label"> Enter email above</label>
+            <label for="number">Number: <input id="number" type="number" min="13" max="102" placeholder="ent. age" required></label><label id="number-label"> Enter age above</label>
+          </fieldset>
+    <fieldset>
+        <label for="dropdown">Which best describes your current marvel knowledge?
+          <select id="dropdown">
+            <option value="beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+          </select>
+  </fieldset>
+  <fieldset>
+        <label>What marvel movie dropped in 2018 that is based in the city of Wakanda?</label>
+        <label for="infinitywar">
+          <input type="radio" class="inline" id="infinitywar" value="infinitywar" name="answer">Avengers Infinity War
+          </label>
+        <label for="blackpanther">
+          <input type="radio" class="inline" id="blackpanther" value="blackpanther" name="answer">Black Panther
+        </label>
+        <label for="thor">
+          <input type="radio" class="inline" id="thor" value="thor" name="answer">Thor Ragnorok
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Who is your favorite Marvel Character?</legend>
+            <input id="wolverine" type="checkbox" name="character" value="wolverine" checked> <label for="wolverine">Wolverine</label>
+            <input id="spiderman" type="checkbox" name="character" value="spiderman"> <label for="lazy">Spider-Man</label>
+            <input id="hulk" type="checkbox" name="character" value="hulk"> <label for="hulk">The Hulk</label>
+            <input id="other" type="checkbox" name="character" value="other"> <label for="other">Other</label>
+            <textarea id="char" name="char" rows="5" cols="30" placeholder="If other please list here and why they are your favorite marvel character..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #202035;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: 35%;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+
+
+** end of undefined **
+
